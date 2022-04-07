@@ -62,6 +62,14 @@ add_action( "tgmpa_register", function() {
             "slug"    => "elementor"
         ),
         array(
+            "name"    => "Woocommerce",
+            "slug"    => "woocommerce"
+        ),
+        array(
+            "name"    => "Contact Form 7",
+            "slug"    => "contact-form-7"
+        ),
+        array(
           'name'      => 'Elementor PRO free',
           'slug'      => 'pro-elements',
           'source'    => 'https://github.com/proelements/proelements/releases/download/v3.6.4/pro-elements.zip',
