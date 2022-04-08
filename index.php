@@ -70,6 +70,14 @@ add_action( "tgmpa_register", function() {
             "slug"    => "contact-form-7"
         ),
         array(
+            "name"    => "Cookie Notice & Compliance",
+            "slug"    => "cookie-notice"
+        ),
+        array(
+            "name"    => "Mailchimp for woocommerce",
+            "slug"    => "mailchimp-for-woocommerce"
+        ),
+        array(
           'name'      => 'Elementor PRO free',
           'slug'      => 'pro-elements',
           'source'    => 'https://github.com/proelements/proelements/releases/download/v3.6.4/pro-elements.zip',
@@ -78,6 +86,11 @@ add_action( "tgmpa_register", function() {
           'name'      => 'Imba Admin Central',
           'slug'      => 'imba-admin-central',
           'source'    => 'https://github.com/ImbaSEO1/imba-admin-central/archive/refs/heads/main.zip',
+        ),
+        array(
+          'name'      => 'Imba Allow SVG Wordpress',
+          'slug'      => 'imba-allow-svg-wp',
+          'source'    => 'https://github.com/ImbaSEO1/imba-allow-svg-wp/archive/refs/heads/main.zip',
         ),
     );
 
