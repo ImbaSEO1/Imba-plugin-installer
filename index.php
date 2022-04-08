@@ -78,6 +78,10 @@ add_action( "tgmpa_register", function() {
             "slug"    => "mailchimp-for-woocommerce"
         ),
         array(
+            "name"    => "Loco translate",
+            "slug"    => "loco-translate"
+        ),
+        array(
           'name'      => 'Elementor PRO free',
           'slug'      => 'pro-elements',
           'source'    => 'https://github.com/proelements/proelements/releases/download/v3.6.4/pro-elements.zip',
