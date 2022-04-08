@@ -82,6 +82,10 @@ add_action( "tgmpa_register", function() {
             "slug"    => "loco-translate"
         ),
         array(
+            "name"    => "Hide Admin Menu",
+            "slug"    => "hide-admin-menu"
+        ),
+        array(
           'name'      => 'Elementor PRO free',
           'slug'      => 'pro-elements',
           'source'    => 'https://github.com/proelements/proelements/releases/download/v3.6.4/pro-elements.zip',
